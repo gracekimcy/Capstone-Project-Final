@@ -17,10 +17,6 @@
 		C44A29CE22F35C110050BF22 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A29CD22F35C110050BF22 /* GalleryViewController.swift */; };
 		C44A29D022F362CE0050BF22 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A29CF22F362CE0050BF22 /* QuizViewController.swift */; };
 		C44A29D222F363880050BF22 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A29D122F363880050BF22 /* ResultsViewController.swift */; };
-		C44A29DE22F469E60050BF22 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A29DB22F469E50050BF22 /* GameManager.swift */; };
-		C44A29DF22F469E60050BF22 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A29DC22F469E50050BF22 /* GameScene.swift */; };
-		C44A29E022F469E60050BF22 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44A29DD22F469E60050BF22 /* GameViewController.swift */; };
-		C44A29E222F46A530050BF22 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C44A29E122F46A530050BF22 /* GameScene.sks */; };
 		C44A29E422F4A9740050BF22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C44A29E322F4A9740050BF22 /* Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -36,10 +32,6 @@
 		C44A29CD22F35C110050BF22 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		C44A29CF22F362CE0050BF22 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		C44A29D122F363880050BF22 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		C44A29DB22F469E50050BF22 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameManager.swift; path = "../../../Downloads/Capstone-Project-master-3/testgame/testgame/testgame/GameManager.swift"; sourceTree = "<group>"; };
-		C44A29DC22F469E50050BF22 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = "../../../Downloads/Capstone-Project-master-3/testgame/testgame/testgame/GameScene.swift"; sourceTree = "<group>"; };
-		C44A29DD22F469E60050BF22 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = "../../../Downloads/Capstone-Project-master-3/testgame/testgame/testgame/GameViewController.swift"; sourceTree = "<group>"; };
-		C44A29E122F46A530050BF22 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = "../../../Downloads/Capstone-Project-master-3/testgame/testgame/testgame/GameScene.sks"; sourceTree = "<group>"; };
 		C44A29E322F4A9740050BF22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../Girls Who Code/Capstone Project/Photo Component/Photo Component/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,10 +73,6 @@
 				C44A29CB22F35B900050BF22 /* PhotoViewController.swift */,
 				C44A29CD22F35C110050BF22 /* GalleryViewController.swift */,
 				C44A29C922F35A1C0050BF22 /* ChallengeViewController.swift */,
-				C44A29DB22F469E50050BF22 /* GameManager.swift */,
-				C44A29DC22F469E50050BF22 /* GameScene.swift */,
-				C44A29DD22F469E60050BF22 /* GameViewController.swift */,
-				C44A29E122F46A530050BF22 /* GameScene.sks */,
 				C44A29BE22F354B60050BF22 /* Assets.xcassets */,
 				C44A29C022F354B60050BF22 /* LaunchScreen.storyboard */,
 				C44A29E322F4A9740050BF22 /* Info.plist */,
@@ -150,7 +138,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44A29E222F46A530050BF22 /* GameScene.sks in Resources */,
 				C44A29C222F354B60050BF22 /* LaunchScreen.storyboard in Resources */,
 				C44A29BF22F354B60050BF22 /* Assets.xcassets in Resources */,
 				C44A29E422F4A9740050BF22 /* Info.plist in Resources */,
@@ -165,11 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44A29E022F469E60050BF22 /* GameViewController.swift in Sources */,
 				C44A29BA22F354B60050BF22 /* ViewController.swift in Sources */,
-				C44A29DE22F469E60050BF22 /* GameManager.swift in Sources */,
 				C44A29CC22F35B900050BF22 /* PhotoViewController.swift in Sources */,
-				C44A29DF22F469E60050BF22 /* GameScene.swift in Sources */,
 				C44A29CE22F35C110050BF22 /* GalleryViewController.swift in Sources */,
 				C44A29D222F363880050BF22 /* ResultsViewController.swift in Sources */,
 				C44A29D022F362CE0050BF22 /* QuizViewController.swift in Sources */,
